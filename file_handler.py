@@ -1,5 +1,4 @@
 import os
-import platform
 import datetime
 from pandas import DataFrame
 from celery import Celery
@@ -12,7 +11,7 @@ def get_file_directory():
 
 APP = Celery('file_maker',backend='amqp',broker='amqp://')
 FILE_DIRECTORY_PATH = get_file_directory()
-FILE_LIMITAION_HOURS = 1
+FILE_LIMITAION_HOURS = 'some_int'
 
 OUTPUT_STANDARD_MAPPER = {
     'target_result': 'target_name',

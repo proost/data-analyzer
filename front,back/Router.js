@@ -1,21 +1,5 @@
 const BASEURL = '';
 
-<<<<<<< HEAD
-=======
-function postMethod(token,data) {
-    return {
-        credentials: 'same-origin',
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'X-CSRFToken': token
-        },
-        body: JSON.stringify(data),    
-    }
-};
-
->>>>>>> 789cb97... data analyzer for web
 class Router {
 
     getFile(fileName) {

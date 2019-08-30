@@ -4,15 +4,9 @@ from settings import TIME_ZONE
 
 today = datetime.datetime.now()
 age_range = pandas.date_range(
-<<<<<<< HEAD
     start='start_year',
     end=today,
     freq='interval',
-=======
-    start='시작년도',
-    end=today,
-    freq='구간',
->>>>>>> 789cb97... data analyzer for web
     tz=TIME_ZONE,
 )
 

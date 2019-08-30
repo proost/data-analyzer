@@ -44,7 +44,6 @@ function setChartNames(data,filterStandard) {
 
 function setXaxisType = () => ('category');
 
-<<<<<<< HEAD
 function setBarWidth = () =>  ( {ratio: 'some int'} );
 
 function setChartSize = () => ( {height: 'some int', width: 'some int'} );
@@ -52,13 +51,5 @@ function setChartSize = () => ( {height: 'some int', width: 'some int'} );
 function setLegend = () => ( {position: 'bottom'} );
 
 function setChartPadding = () => ( {bottom: 'some int'} );
-=======
-function setBarWidth = () =>  ( {ratio: 0.2} );
 
-function setChartSize = () => ( {height: 550, width: 1380} );
-
-function setLegend = () => ( {position: 'bottom'} );
-
-function setChartPadding = () => ( {bottom: 25} );
->>>>>>> 789cb97... data analyzer for web
 
